@@ -9,13 +9,46 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /*your style rules go in here */
+  background-color: rgb(255, 237, 197);
+  color: rgb(0, 0, 0);
+  text-align:left;
+  font-size: small; 
+
+  
+  
 }
 
 header {
+background-color: #6e211d;
+z-index: 100;
 
 }
 
+h1 {
+  text-align: center;
+  color: #967b40;
+  text-decoration: underline; 
+  text-underline-offset: 8px;
+  
+
+}
+
+h2 {
+  text-align: center;
+  color: #967b40;
+  padding: 0.2em;
+  
+}
+
 main {
+width: 80%; 
+margin:12px auto 12px auto; 
+max-width: 700px;
+padding: 5em; 
+background-color: #f3e1af;
+
+
+
 
 }
 
@@ -25,9 +58,87 @@ section {
 
 
 figure {
+ width: 45%; 
+ margin: 0 auto;  
+ float: right;
+ margin-left: 0.9em;
+ margin-bottom: 0.2em;
+ margin-top: 1em;
+
+
  
 }
 
+img {
+display: block;
+width: 100%;
+padding-right: .5em;
+
+}
+
+p {
+margin-bottom: 1em;
+margin-top: .5em;
+margin-left: 1em;
+margin-right: 1em;
+line-height: 1.6;
+
+}
+
+.playlink a {
+
+  color: #967b40;  
+  text-decoration:none;
+  background-color: #6e211d;
+  padding: 0.2em;
+
+}
+.performed {
+
+  color: black;
+  margin-bottom: 0;
+  margin-top: 15px;
+ font-weight: bold;
+  text-align: left;
+  
+  
+}
+
+
+.printed {
+
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height: 30px;   /* Height of the footer */
+  text-align: center;
+  background-color: #6e211d;
+  color: #967b40;
+  font-weight: bold;
+  
+}
+
+@media (max-width: 600px) {
+
+figure {
+width: 100%;
+margin: 0 auto;
+float: none;
+margin: 0 none; 
+
+}
 
 }
