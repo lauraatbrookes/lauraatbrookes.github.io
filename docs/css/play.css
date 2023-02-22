@@ -6,21 +6,66 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
   /*your style rules go in here */
+  margin-bottom: 1em;
+  margin-top: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  line-height: 1.6;
+  background-color: rgb(255, 237, 197);
 }
 
 nav {
   /* this is where your nav list items will be */
+
+  margin-bottom: 4em;
+  margin-top: 2em;
+  border: 0;
+  width: 50%; 
+  margin: 10px auto 10px auto; 
+  max-width: 700px;
+  padding: 2em; 
+  line-height: 1.5;
+  border-style: solid;
+  border-width: 0.1em;
+  font-size: medium;
+  text-align: center;
+  column-count: 3;
+  
+
+
+ 
+  
+  
+}
+
+nav ul {
+  list-style: none;
+  }
+
+h1 {
+  background-color: #6e211d;
+  color: #967b40;
+margin-bottom: 1em;
 }
 
 section {
   border: 0;
+  border-style: solid;
+  border-width: 0.1em;
+  width: 50%; 
+  margin: 10px auto 10px auto; 
+  max-width: 700px;
+  padding: 2em; 
+  line-height: 1.5;
+  
 }
 
 /*Here follows the class names that you will have in your html*/
@@ -31,58 +76,121 @@ section {
 
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
 
-section.dramatis {
+.dramatis {
+  text-align: center;
+
+
+ 
+
 }
-section.play {
+.play {
+  border: 0;
+  border-style: solid;
+  border-width: 0.1em;
+  width: 50%; 
+  margin: 10px auto 10px auto; 
+  max-width: 700px;
+  padding: 2em; 
+  line-height: 1.5;
+  text-align: center;
 }
+
+ 
 figure {
+  width: 45%; 
+  margin: 0 auto;  
+  float: right;
+  margin-left: 0.9em;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+  
+  
+  
+  
+
 }
 
 img {
-}
-h1.act {
-}
-p.character {
-}
-p.charactername {
-}
-h1.dramatishead {
+  width: 100%;
+  padding: 1em;
+
 }
 
-h2.location {
+
+.act {
+  text-align: center;
+  font-size: 35px; 
+
 }
-p.play_location {
+.character {
+  font-weight: bold;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+
 }
-p.prose {
+.charactername {
+   
+
+}
+.dramatishead {
+  text-align: center;
+
 }
 
-h2.firstscene {
+.location {
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.play_location {
+  text-align: center;
+  
+
 }
 
-h2.scene {
+.firstscene {
+  text-align: center;
+  text-transform: uppercase;
+  
+
 }
-p.song {
+
+.scene {
+  text-align: center;
+  text-transform: uppercase;
+  
+
 }
-h2.stagedirection {
+.song {
+  text-align: center;
+
+}
+.stagedirection {
+  text-align: center;
+  font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #6e211d;
+  color: #967b40;
+  font-size:medium; 
+
 }
 .verseline {
-  margin: 0 0 0.4em 8em;
+ 
+   
 }
 
-p.prose {
-  margin: 0 0 0.4em 8em;
+.prose {
+  font-style: italic;
+  
 }
 
-span.character_role {
+.character_role {
+ font-weight: bold;
+
 }
-span.stage_directions_inline {
+.stage_directions_inline {
+  
 }
 
-.character_beforespeech {
-  display: block;
-  position: relative;
-  left: -8em;
-  top: 1em;
-  /* font-size: 1.1em; */
-  width: 4em;
-}
