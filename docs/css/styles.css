@@ -19,6 +19,7 @@ body {
 
 }
 
+
 header {
 background-color: #6e211d;
 z-index: 100;
@@ -38,7 +39,7 @@ h1 {
 h2 {
   text-align: center;
   color: #967b40;
-  padding: 0.2em;
+  padding: 0.3em;
   
 }
 
@@ -144,6 +145,7 @@ text-align: left;
 
 .playlink {
 font-family: Arial, Helvetica, sans-serif;
+text-align: center;
 
 
 
