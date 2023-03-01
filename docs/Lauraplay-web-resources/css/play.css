@@ -1,0 +1,211 @@
+/* This stylesheet will be selected when you export HTML from InDesign */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  /*your style rules go in here */
+  margin-bottom: 1em;
+  margin-top: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  line-height: 1.6;
+  background-color: rgb(255, 237, 197); 
+}
+
+nav {
+  /* this is where your nav list items will be */
+
+  margin-bottom: 4em;
+  margin-top: 2em;
+  border: 0;
+  width: 50%; 
+  margin: 10px auto 10px auto; 
+  max-width: 700px;
+  padding: 2em; 
+  line-height: 1.5;
+  border-style: solid;
+  border-width: 0.1em;
+  font-size: medium;
+  text-align: center;
+  column-count: 3;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+
+ 
+  
+  
+}
+
+nav ul {
+  list-style: none;
+  }
+
+h1 {
+  background-color: #6e211d;
+  color: #967b40;
+margin-bottom: 1em;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  border: 0;
+  border-style: solid;
+  border-width: 0.1em;
+  width: 50%; 
+  margin: 10px auto 10px auto; 
+  max-width: 700px;
+  padding: 2em; 
+  line-height: 1.5;
+  
+}
+
+/*Here follows the class names that you will have in your html*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+/* the following may not be used but it doesn't matter if they are listed here  */
+
+/* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+
+.dramatis {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+
+
+ 
+
+}
+.play {
+  border: 0;
+  border-style: solid;
+  border-width: 0.1em;
+  width: 50%; 
+  margin: 10px auto 10px auto; 
+  max-width: 700px;
+  padding: 2em; 
+  line-height: 1.5;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ 
+figure {
+  width: 45%; 
+  margin: 0 auto;  
+  float: right;
+  margin-left: 0.9em;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+  
+  
+  
+  
+
+}
+
+img {
+  width: 100%;
+  padding: 1em;
+
+}
+
+
+.act {
+  text-align: center;
+  font-size: 35px; 
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.character {
+  font-weight: bold;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.charactername {
+   
+
+}
+.dramatishead {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.location {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.play_location {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+.firstscene {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+.scene {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.song {
+  text-align: center;
+
+}
+.stagedirection {
+  text-align: center;
+  font-style: italic;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background-color: #6e211d;
+  color: #967b40;
+  font-size:medium; 
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.verseline {
+ 
+   
+}
+
+.prose {
+  font-style: italic;
+  
+}
+
+.character_role {
+ font-weight: bold;
+
+}
+.stage_directions_inline {
+  
+}
+
