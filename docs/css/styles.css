@@ -12,8 +12,7 @@ body {
   background-color: rgb(255, 237, 197);
   color: rgb(0, 0, 0);
   text-align:left;
-  font-size: small; 
-  
+  font-size: small;
   
 
 
@@ -113,7 +112,7 @@ line-height: 1.6;
 
 font-style: italic;
 text-align: left;
-font-size: x-small;
+font-size: small;
 }
 
 
@@ -166,8 +165,10 @@ img {
     
   }
 
-.ytscene {
-   padding-top: 2em;
+
+  .ytscene {
+    padding-top: 2em;
+    
   }
 
 
@@ -191,7 +192,10 @@ width: 100%;
 margin: 0 auto;
 float: none;
 margin: 0 none; 
-
 }
 
-}
+.secondimage {
+  width: 50%;
+  padding: 1em;
+  margin-top: 0.1em;
+ }
