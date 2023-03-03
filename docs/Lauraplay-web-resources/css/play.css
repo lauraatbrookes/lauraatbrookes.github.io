@@ -89,7 +89,7 @@ color: #967b40;
 margin-bottom: 1em;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
-font-size: x-large;
+font-size: large;
 }
 
 li.home {
@@ -176,7 +176,7 @@ img {
 
 .act {
   text-align: center;
-  font-size: 35px; 
+  font-size: 28px; 
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -197,7 +197,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 0.3em;
   padding-top: 0.3em;
-  font-size: x-large;
+  font-size: large;
   background-color: #6e211d; margin
   
 
@@ -348,7 +348,7 @@ img {
     margin-bottom: 1em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     text-transform: capitalize;
     }
   
@@ -400,7 +400,7 @@ img {
 
 .act {
   text-align: center;
-  font-size: 35px; 
+  font-size: 28px; 
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -421,7 +421,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 0.3em;
   padding-top: 0.3em;
-  font-size: x-large;
+  font-size: large;
   
 }
 
